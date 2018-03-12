@@ -1,4 +1,7 @@
 /*Universal setting*/
+* {
+  margin: 0;
+}
 body {
   font:22px Helvetica,sans-serif;
   color: seashell;
@@ -6,7 +9,9 @@ body {
   opacity:0.9;
   text-align: center;
 }
-
+.border {
+  border:1px solid white;
+}
 /*Heading*/
 header {
   height:69px;
@@ -16,13 +21,41 @@ header {
   display: flex;
   justify-content:space-between;
   align-items: center;
+  background-color:black;
+  z-index: 1;
 }
 .logo img {
   height:50px;
   margin-left:10px;
 }
-span.links{
+.links a{
   text-decoration: underline;
   color:seashell;
   margin:20px 10px;
 }
+
+.main {
+  position: relative;
+  top:69px;
+}
+/*Mission*/
+ .mission {
+   background-image: url(../images/img-mission-background.jpg);
+   height: 700px;
+   width:1200px;
+   display:flex;
+   justify-content: center;
+ }
+ div.contents {
+   background-color: black;
+   height:150px;
+   width:100%;
+   position:
+ }
+
+/*Featured Tea*/
+.images img {
+  height:200px;
+  width:300px;
+}
+/*Location*/
