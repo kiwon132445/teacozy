@@ -12,6 +12,17 @@ body {
 .border {
   border:1px solid white;
 }
+.contents {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contents h2, .contents h4{
+  padding: 15px 0;
+}
 /*Heading*/
 header {
   height:69px;
@@ -35,27 +46,57 @@ header {
 }
 
 .main {
-  position: relative;
   top:69px;
+  width: 1200px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
 }
 /*Mission*/
  .mission {
    background-image: url(../images/img-mission-background.jpg);
-   height: 700px;
    width:1200px;
+   height: 700px;
    display:flex;
    justify-content: center;
- }
- div.contents {
-   background-color: black;
-   height:150px;
-   width:100%;
-   position:
+   align-items: center;
+   flex-wrap: wrap;
  }
 
 /*Featured Tea*/
+.featured {
+
+  width: 1000px;
+}
+.images {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.group {
+  margin:10px;
+}
 .images img {
+  display:flex;
   height:200px;
   width:300px;
+  margin-bottom: 10px;
 }
 /*Location*/
+div.title {
+
+}
+.locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  display:flex;
+  justify-content: center;
+}
+.address {
+  opacity: 1;
+  height:300px;
+  width:300px;
+  margin: 15px 40px;
+  background-color:black;
+}
