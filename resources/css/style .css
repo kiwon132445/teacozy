@@ -1,0 +1,141 @@
+/*
+.border {
+  border:1px solid white;
+}
+*/
+
+
+/*Universal setting*/
+* {
+  margin: 0;
+}
+body {
+  font:22px Helvetica,sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+  text-align: center;
+}
+.flex-content{
+  display:flex;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+
+.contents {
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  flex-direction: column;
+}
+.contents h2, .contents h4{
+  padding: 15px 0;
+}
+
+
+/*Heading*/
+header {
+  height:69px;
+  width:100%;
+  border-bottom:1px solid seashell;
+  position:fixed;
+  justify-content:space-between;
+  background-color:black;
+  z-index: 1;
+}
+.logo img {
+  height:50px;
+  margin-left:10px;
+}
+.links a{
+  text-decoration: underline;
+  color:seashell;
+  margin:20px 10px;
+}
+
+
+/*Main Content*/
+.main {
+  top:69px;
+  width: 1200px;
+  margin:auto;
+  flex-direction:column;
+  justify-content: center;
+  align-content: center;
+}
+
+
+/*Mission*/
+ .mission {
+   background-image: url(../images/img-mission-background.jpg);
+   width:1200px;
+   height: 700px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+
+/*Featured Tea*/
+.featured {
+  padding-top: 50px;
+  width: 1000px;
+}
+.images {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.group {
+  margin:10px;
+}
+.images img {
+  display:flex;
+  height:200px;
+  width:300px;
+  margin-bottom: 10px;
+}
+
+
+/*Location*/
+.location {
+  margin-top:50px;
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width:1200px;
+  justify-content: center;
+  flex-direction:column;
+}
+.locations {
+  display:flex;
+}
+.address {
+  opacity: 1;
+  height:300px;
+  width:300px;
+  margin: 15px 20px;
+  background-color:black;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/*Footer*/
+.footing {
+  height:200px;
+  display:flex;
+  flex-direction: column;
+}
+.supporting.head{
+  margin:10px;
+}
+.supporting.contact h5{
+  margin:20px;
+}
+
+
+/*Copyright*/
+.copyright h5{
+  padding:20px;
+  text-align: left;
+}
